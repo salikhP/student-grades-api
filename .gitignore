@@ -1,0 +1,46 @@
+# Symfony
+/var/cache/
+/var/log/
+/var/sessions/
+
+# Environment files
+.env.local
+.env.local.php
+.env.*.local
+
+# Composer
+/vendor/
+
+# PHPUnit
+.phpunit.result.cache
+
+# Node / frontend (если появятся)
+node_modules/
+public/build/
+npm-debug.log
+yarn-error.log
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Symfony CLI
+.symfony/
+
+# PHPStorm
+.phpstorm.meta.php
+
+# Cache
+.cache/
